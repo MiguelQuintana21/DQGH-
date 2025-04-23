@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeliverEase - Proyecto | TechSolutions</title>
+    <title>Repositorio - Proyecto | DQGH STUDIO</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -332,6 +332,65 @@
             opacity: 0;
             pointer-events: none;
         }
+
+         /* From Uiverse.io by AqFox */ 
+.spinner {
+ width: 37px;
+ height: 37px;
+ animation: spinner-y0fdc1 5s infinite ease;
+ transform-style: preserve-3d;
+}
+
+.spinner > div {
+ background-color: rgba(0,77,255,0.2);
+ height: 100%;
+ position: absolute;
+ width: 100%;
+ border: 2px solid #000000;
+}
+
+.spinner div:nth-of-type(1) {
+ transform: translateZ(-22px) rotateY(180deg);
+}
+
+.spinner div:nth-of-type(2) {
+ transform: rotateY(-270deg) translateX(50%);
+ transform-origin: top right;
+}
+
+.spinner div:nth-of-type(3) {
+ transform: rotateY(270deg) translateX(-50%);
+ transform-origin: center left;
+}
+
+.spinner div:nth-of-type(4) {
+ transform: rotateX(90deg) translateY(-50%);
+ transform-origin: top center;
+}
+
+.spinner div:nth-of-type(5) {
+ transform: rotateX(-90deg) translateY(50%);
+ transform-origin: bottom center;
+}
+
+.spinner div:nth-of-type(6) {
+ transform: translateZ(22px);
+}
+
+@keyframes spinner-y0fdc1 {
+ 0% {
+  transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+ }
+
+ 50% {
+  transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+ }
+
+ 100% {
+  transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+ }
+}
+
     </style>
 </head>
 <body class="font-sans antialiased bg-lightBg dark:bg-darkBg text-gray-800 dark:text-gray-200 transition-colors duration-300">
@@ -347,7 +406,7 @@
                     <svg class="w-8 h-8 text-primary dark:text-primary-light" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
-                    <span class="text-xl font-bold">DQGH STUDIO</span>
+                    <span class="text-xl font-bold">TechSolutions</span>
                 </div>
                 
                 <div class="hidden md:flex items-center space-x-8">
@@ -393,6 +452,7 @@
             </div>
         </div>
     </nav>
+   
 
     <!-- Encabezado del Proyecto -->
     <section class="pt-24 pb-12 relative overflow-hidden">
@@ -462,7 +522,7 @@
                 <div class="text-center mb-12">
                     <span class="inline-block px-3 py-1 bg-primary/10 dark:bg-primary-dark/20 text-primary dark:text-primary-light rounded-full text-sm font-medium mb-4">DESCRIPCIÓN DEL PROYECTO</span>
                     <h2 class="text-3xl md:text-4xl font-bold mb-6">Repositorio de Trabajos Académicos</h2>
-                    <p class="text-lg text-gray-600 dark:text-gray-400">Este sistema surge como respuesta a la necesidad de gestionar eficientemente los valiosos trabajos académicos producidos por los estudiantes. Es por ello que este proyecto tiene el objetivo de gestionar tesis y memorias de estadías con el fin de centralizar, difundir y facilitar el acceso a estos trabajos académicos, promoviendo la colaboración, el intercambio de conocimientos y la visibilidad de los estudiantes.</p>
+                    <p class="text-lg text-gray-600 dark:text-gray-400">Este sistema surge como respuesta a la necesidad de gestionar eficientemente los valiosos trabajos académicos producidos por los estudiantes. Es por ello que este proyecto tiene el objetivo de gestionar tesis y memorias de estadías con el fin de difundir y facilitar el acceso a estos trabajos académicos, promoviendo la colaboración, el intercambio de conocimientos y la visibilidad de los estudiantes.</p>
                 </div>
                 
              
