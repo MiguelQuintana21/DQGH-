@@ -26,31 +26,7 @@ img {
 /* CSS personalizado */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-/ .blob-animation {
-    position: absolute;
-    width: 40%;
-    height: 40vw;
-    max-width: 500px;
-    max-height: 500px;
-    filter: blur(80px);
-    opacity: 0.4;
-    border-radius: 50%;
-    z-index: -1;
-    animation: move 15s ease-in-out infinite;
-}
 
-.blob-1 {
-    background: #3B82F6;
-    top: -10%;
-    left: -5%;
-}
-
-.blob-2 {
-    background: #10B981;
-    bottom: -15%;
-    right: -5%;
-    animation-delay: -7s;
-}
 
 
 @keyframes move {
@@ -118,6 +94,10 @@ html {
     transition: .4s;
     width: 18px;
     border-radius: 50%;
+}
+
+.gradient-hero{
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 input:checked+.slider {
