@@ -57,13 +57,7 @@ img {
     animation-delay: -7s;
 }
 
-/* Asegurar contención y evitar desplazamiento horizontal */
-body,
-html {
-    overflow-x: hidden;
-    width: 100%;
-    position: relative;
-}
+
 
 /* Asegurar que los contenedores padres contengan los blobs */
 section,
