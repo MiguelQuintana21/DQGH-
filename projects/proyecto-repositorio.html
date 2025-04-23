@@ -65,32 +65,7 @@
             background: linear-gradient(135deg, rgba(29, 78, 216, 0.9) 0%, rgba(4, 120, 87, 0.8) 100%);
         }
         
-        .blob-animation {
-            position: absolute;
-            width: 40%;
-            height: 40vw;
-            max-width: 500px;
-            max-height: 500px;
-            filter: blur(80px);
-            opacity: 0.4;
-            border-radius: 50%;
-            z-index: -1;
-            animation: move 15s ease-in-out infinite;
-        }
-        
-        .blob-1 {
-            background: #3B82F6;
-            top: -10%;
-            left: -5%;
-        }
-        
-        .blob-2 {
-            background: #10B981;
-            bottom: -15%;
-            right: -5%;
-            animation-delay: -7s;
-        }
-        
+
         @keyframes move {
             0%, 100% {
                 transform: translate(0, 0) scale(1);
@@ -395,8 +370,7 @@
 </head>
 <body class="font-sans antialiased bg-lightBg dark:bg-darkBg text-gray-800 dark:text-gray-200 transition-colors duration-300">
     <!-- Efectos de fondo animados -->
-    <div class="blob-animation blob-1"></div>
-    <div class="blob-animation blob-2"></div>
+  
 
     <!-- Navegación -->
     <nav class="fixed w-full z-50 bg-white/80 dark:bg-darkBg/80 backdrop-blur-md">
