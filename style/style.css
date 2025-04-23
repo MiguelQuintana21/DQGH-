@@ -26,13 +26,10 @@ img {
 /* CSS personalizado */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* Actualización para blobs animados */
-.blob-animation {
+/ .blob-animation {
     position: absolute;
     width: 40%;
-    /* Usa porcentaje en lugar de píxeles fijos */
     height: 40vw;
-    /* Altura relativa al ancho de viewport */
     max-width: 500px;
     max-height: 500px;
     filter: blur(80px);
@@ -40,8 +37,6 @@ img {
     border-radius: 50%;
     z-index: -1;
     animation: move 15s ease-in-out infinite;
-    overflow: hidden;
-    /* Importante: evita desbordamiento */
 }
 
 .blob-1 {
@@ -56,7 +51,6 @@ img {
     right: -5%;
     animation-delay: -7s;
 }
-
 
 
 @keyframes move {
