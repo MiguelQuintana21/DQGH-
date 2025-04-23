@@ -59,12 +59,7 @@ img {
 
 
 
-/* Asegurar que los contenedores padres contengan los blobs */
-section,
-.relative {
-    overflow: hidden;
-    position: relative;
-}
+
 
 @keyframes move {
 
